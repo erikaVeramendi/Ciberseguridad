@@ -84,7 +84,7 @@ const PRODUCTS = [
     price: 'Bs. 95',
     abv: '40%',
     description: 'Gin London Dry con enebro, cilantro y piel de naranja. El G&T perfecto con hielo y rodaja de limón.',
-    img: 'https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=500&q=85',
+    img: 'https://images.unsplash.com/photo-1571727153934-b9e0059b7ab2?w=500&q=85',
     tags: ['London Dry', 'G&T'],
   },
   {
@@ -95,7 +95,7 @@ const PRODUCTS = [
     price: 'Bs. 70',
     abv: '13.5%',
     description: 'Cabernet Sauvignon chileno con notas de frutos negros, cerezas, especias y un final suave y persistente.',
-    img: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=500&q=85',
+    img: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&q=85',
     tags: ['Tinto', 'Chileno'],
   },
 ]
