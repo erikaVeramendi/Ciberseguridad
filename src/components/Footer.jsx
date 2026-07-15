@@ -7,9 +7,16 @@ const LINKS = {
 export default function Footer() {
   return (
     <footer id="nosotros" style={{ background: '#050505', borderTop: '1px solid #1a1a1a' }}>
-      <div className="px-6 py-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(4, 1fr)',
+        gap: '3rem',
+        maxWidth: '1280px',
+        margin: '0 auto',
+        padding: '4rem 2rem',
+      }}>
         {/* Brand */}
-        <div className="md:col-span-1">
+        <div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl"
               style={{ background: 'linear-gradient(135deg,#D4AF37,#B8860B)' }}>
@@ -61,8 +68,20 @@ export default function Footer() {
       </div>
 
       {/* Delivery strip */}
-      <div className="px-6 py-4 max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-8 text-xs"
-        style={{ borderTop: '1px solid #111', borderBottom: '1px solid #111', color: '#555' }}>
+      <div style={{
+        borderTop: '1px solid #111',
+        borderBottom: '1px solid #111',
+        color: '#555',
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '2rem',
+        fontSize: '0.75rem',
+        padding: '1rem 2rem',
+        maxWidth: '1280px',
+        margin: '0 auto',
+      }}>
         {['🚚 Delivery en 30 min', '💳 Pago con QR', '📦 Envío gratis +Bs. 300', '🕐 Lun–Dom 10:00–23:00'].map(item => (
           <span key={item}>{item}</span>
         ))}

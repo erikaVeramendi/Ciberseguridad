@@ -2,6 +2,7 @@ import './index.css'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import CatalogSection from './components/CatalogSection'
+import SearchBar from './components/SearchBar'
 import SuggestionsForm from './components/SuggestionsForm'
 import Footer from './components/Footer'
 
@@ -12,6 +13,7 @@ export default function App() {
       <main>
         <Banner />
         <CatalogSection />
+        <SearchBar />
         <SuggestionsForm />
       </main>
       <Footer />

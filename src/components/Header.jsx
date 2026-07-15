@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const NAV_LINKS = ['Catálogo', 'Cocktails', 'Sugerencias', 'Nosotros']
+const NAV_LINKS = ['Catálogo', 'Buscar', 'Sugerencias', 'Nosotros']
 
 export default function Header() {
   const [open, setOpen] = useState(false)
