@@ -84,7 +84,7 @@ const PRODUCTS = [
     price: 'Bs. 110',
     abv: '15%',
     description: 'Deliciosa mezcla de crema de fresa con tequila premium. Sirve bien frío. Suave, dulce y perfecto para compartir.',
-    img: 'https://images.unsplash.com/photo-1629166687839-9fbb34fa1b16?w=500&q=85',
+    img: '/images/tequila-rose.png',
     tags: ['Crema', 'Fresa'],
   },
   {
