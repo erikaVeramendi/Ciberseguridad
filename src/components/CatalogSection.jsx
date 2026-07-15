@@ -78,14 +78,14 @@ const PRODUCTS = [
   },
   {
     id: 8,
-    name: 'Gin Beefeater',
-    category: 'Gin London Dry',
-    origin: '🇬🇧 Inglaterra',
-    price: 'Bs. 95',
-    abv: '40%',
-    description: 'Gin London Dry con enebro, cilantro y piel de naranja. El G&T perfecto con hielo y rodaja de limón.',
-    img: 'https://images.unsplash.com/photo-1571727153934-b9e0059b7ab2?w=500&q=85',
-    tags: ['London Dry', 'G&T'],
+    name: 'Tequila Rose',
+    category: 'Crema de Tequila',
+    origin: '🇺🇸 EE.UU.',
+    price: 'Bs. 110',
+    abv: '15%',
+    description: 'Deliciosa mezcla de crema de fresa con tequila premium. Sirve bien frío. Suave, dulce y perfecto para compartir.',
+    img: 'https://images.unsplash.com/photo-1629166687839-9fbb34fa1b16?w=500&q=85',
+    tags: ['Crema', 'Fresa'],
   },
   {
     id: 9,
@@ -105,6 +105,7 @@ const TAG_COLORS = {
   Puro: '#3b82f6', Versátil: '#22c55e', Mexicano: '#eab308', Rubia: '#D4AF37',
   Bolivia: '#16a34a', Cubano: '#0891b2', Cóctel: '#9333ea', Premium: '#D4AF37',
   Tennessee: '#92400e', 'London Dry': '#0d9488', 'G&T': '#059669', Tinto: '#be123c', Chileno: '#7c3aed',
+  Crema: '#f43f5e', Fresa: '#fb7185',
 }
 
 export default function CatalogSection() {
